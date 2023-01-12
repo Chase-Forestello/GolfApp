@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<StartScreen />} />
+          <Route path="/golf-app" element={<StartScreen />} />
           <Route path="/golf-app/start" element={<StartScreen />} />
           <Route path="/golf-app/home" element={<Home />} />
         </Routes>
