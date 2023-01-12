@@ -11,7 +11,7 @@ export default function StartScreen(props) {
   function handleNameClick() {
     if (name.length > 0) {
       console.log("Name: " + name);
-      navigate("/home");
+      navigate("/golf-app/home");
     } else {
       alert("Please enter your name");
     }

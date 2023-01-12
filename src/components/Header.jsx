@@ -12,10 +12,10 @@ export default function Header(props) {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+        <Link className="nav-link" aria-current="page" to="/golf-app/home">Home</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/start">Start</Link>
+        <Link className="nav-link" to="/golf-app/start">Start</Link>
       </li>
     </ul>
   </div>
