@@ -1,7 +1,7 @@
 # GolfApp
 A simple golf score card app.
 
-#Plans/Features:
+# Plans/Features:
 <ul>
   <li>
     Select number of players
