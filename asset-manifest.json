@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/golf-app/static/css/main.073c9b0a.css",
+    "main.js": "/golf-app/static/js/main.40cc5ddb.js",
+    "static/js/787.796e60d1.chunk.js": "/golf-app/static/js/787.796e60d1.chunk.js",
+    "static/media/logo.svg": "/golf-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/golf-app/index.html",
+    "main.073c9b0a.css.map": "/golf-app/static/css/main.073c9b0a.css.map",
+    "main.40cc5ddb.js.map": "/golf-app/static/js/main.40cc5ddb.js.map",
+    "787.796e60d1.chunk.js.map": "/golf-app/static/js/787.796e60d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.40cc5ddb.js"
+  ]
+}
