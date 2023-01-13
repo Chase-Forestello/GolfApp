@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "../styles/StartScreen.css";
+import "../styles/PlayerNames.css";
 
-export default function StartScreen(props) {
-  let navigate = useNavigate(); 
+export default function PlayerNames(props) {
+  let navigate = useNavigate();
 
   const [name, setName] = useState("");
 
   function handleNameClick() {
     if (name.length > 0) {
       console.log("Name: " + name);
-      navigate("/golf-app/home");
+      // navigate("/golf-app/home");
+      navigate("/golf-app/course-selection");
     } else {
       alert("Please enter your name");
     }
@@ -19,8 +20,8 @@ export default function StartScreen(props) {
 
   return (
     <div className="card start-card">
-      <h1>Start Screen</h1>
-      <p>Enter your name to start the game</p>
+      <h1>Golf Score Card</h1>
+      <p>Select a course</p>
       <input
         className="start-name-input"
         name="name"

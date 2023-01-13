@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../styles/StartScreen.css";
+import "../styles/PlayerNames.css";
 import {NavLink, Link} from 'react-router-dom';
 
 export default function Header(props) {
