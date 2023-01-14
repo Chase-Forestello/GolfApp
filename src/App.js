@@ -12,8 +12,9 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+        <Route path="/" element={<PlayerNames />} /> {/* set the start screen as the default screen (course selection) */}
           <Route path="/golf-app" element={<PlayerNames />} /> {/* set the start screen as the default screen (course selection) */}
-          <Route path="/golf-app/start" element={<PlayerNames />} />
+          <Route path="/golf-app/start" element={<PlayerNames players="1" />} />
           <Route path="/golf-app/home" element={<Home />} />
         </Routes>
       </div>
