@@ -1,0 +1,44 @@
+#scoreCard {
+  height: 75vh;
+  background-color: aquamarine;
+}
+#scoreCardHeader {
+  background-color: rgba(17, 172, 94, 0.651);
+  height: 10vh;
+  width: 100%;
+  border: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#quarryMap{
+    width: 100vw;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.player-names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.map-btn {
+  width: 25vw;
+}
+.scorecard-btn{
+    width: 75vw;
+    margin-top: 1rem;
+}
+#exampleModal{
+    background-color: rgba(128, 255, 0, 0.274);
+}
+.map-header, .map-footer{
+background-color: rgba(34, 139, 34, 0.329);
+}
+.map-body{
+    background-color: rgba(0, 255, 0, 0.329);
+    padding: 0;
+}
