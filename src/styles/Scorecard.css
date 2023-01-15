@@ -1,6 +1,6 @@
 #scoreCard {
   height: 75vh;
-  background-color: aquamarine;
+  background-color: #4a77459a;
   margin-top: 5rem;
 }
 #scoreCardHeader {
@@ -13,11 +13,10 @@
   justify-content: space-evenly;
   align-items: center;
 }
-#quarryMap{
-    width: 100vw;
-    margin-top: auto;
-    margin-bottom: auto;
-
+#quarryMap {
+  width: 100vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .player-names {
   display: flex;
@@ -29,38 +28,46 @@
 .map-btn {
   width: 25vw;
   margin-right: 1rem;
+  background-color: forestgreen;
+  border-color: aquamarine;
 }
-.scorecard-btn{
-    width: 75%;
-    margin-top: 1rem;
+.scorecard-btn {
+  width: 75%;
+  margin-top: 1rem;
+  background-color: forestgreen;
+  border-color: aquamarine;
 }
-#exampleModal{
-    background-color: rgba(128, 255, 0, 0.274);
+#exampleModal {
+  background-color: rgba(128, 255, 0, 0.274);
 }
-.map-header, .map-footer{
-background-color: rgba(34, 139, 34, 0.329);
+.map-header,
+.map-footer {
+  background-color: rgba(34, 139, 34, 0.329);
 }
-.map-body{
-    background-color: rgba(0, 255, 0, 0.329);
-    padding: 0;
+.map-body {
+  background-color: rgba(0, 255, 0, 0.329);
+  padding: 0;
 }
-.modal-header{
-    background-color: rgba(34, 139, 34, 0.329);
-    /* justify-content: center; */
+.modal-header {
+  background-color: #4a77459a;
+  /* justify-content: center; */
 }
-.modal-footer{
-    background-color: rgba(34, 139, 34, 0.329);
-    justify-content: center;
+.modal-body {
+  background-color: #3c3f49;
 }
-.yardage-select{
-    width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.modal-footer {
+  background-color: #4a77459a;
+  justify-content: center;
 }
-.score-input{
-    width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+.yardage-select {
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.score-input {
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }

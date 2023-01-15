@@ -79,8 +79,10 @@ export default function Scorecard(props) {
     let total = 0;
     let player = e.target.id;
     console.log(player);
-    let scoreInputs = document.getElementsByClassName("score-input" + player.charAt(player.length - 1) );
-    player = "total" + player.charAt(player.length - 1)
+    let scoreInputs = document.getElementsByClassName(
+      "score-input" + player.charAt(player.length - 1)
+    );
+    player = "total" + player.charAt(player.length - 1);
     for (let i = 0; i < scoreInputs.length; i++) {
       if (scoreInputs[i].value !== "") {
         total += parseInt(scoreInputs[i].value);
@@ -262,10 +264,16 @@ export default function Scorecard(props) {
                         </tr>
                       </tbody>
                     </table>
-                      <button type="button" id={"total" + i} onClick={handleTotalClick} disabled className="btn btn-primary">
-                        Total
-                      </button>
-                      <span id={"totalText" + i}></span>
+                    <button
+                      type="button"
+                      id={"total" + i}
+                      onClick={handleTotalClick}
+                      disabled
+                      className="btn btn-primary"
+                    >
+                      Total
+                    </button>
+                    <span id={"totalText" + i}></span>
                   </div>
                 </div>
                 <div className="modal-footer">
@@ -315,8 +323,7 @@ export default function Scorecard(props) {
                       <h1
                         className="modal-title fs-5 col-10"
                         id="exampleModalLabel"
-                      >
-                      </h1>
+                      ></h1>
                       <button
                         type="button"
                         className="btn-close"

@@ -16,7 +16,7 @@ export default function PlayerNames(props) {
     for (let i = 0; i < playerNameInput.length; i++) {
       if (playerNameInput[i].value.length >= 1) {
         players.push(playerNameInput[i].value);
-      } 
+      }
     }
     if (players.length === parseInt(playerCount)) {
       navigate("/golf-app/scorecard", {
@@ -26,7 +26,6 @@ export default function PlayerNames(props) {
       alert("Please enter a name for all players!");
     }
   };
-
 
   const handleCountChange = () => {
     let playerCount = document.getElementById("playerCount").value;
@@ -72,7 +71,11 @@ export default function PlayerNames(props) {
         {playerCount >= 2 ? <InputField /> : null}
         {playerCount >= 3 ? <InputField /> : null}
         {playerCount >= 4 ? <InputField /> : null}
-        <button className="btn btn-primary" onClick={handleNameandCountChange}>
+        <button
+          id="startBtn"
+          className="btn btn-primary"
+          onClick={handleNameandCountChange}
+        >
           Start
         </button>
         {/* <button className="btn btn-primary testing" onClick={handleTest}>
