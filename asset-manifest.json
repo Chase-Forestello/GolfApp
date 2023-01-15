@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/golf-app/static/css/main.495847e2.css",
-    "main.js": "/golf-app/static/js/main.db63cde4.js",
+    "main.css": "/golf-app/static/css/main.7fc79d46.css",
+    "main.js": "/golf-app/static/js/main.85b24706.js",
     "static/js/787.796e60d1.chunk.js": "/golf-app/static/js/787.796e60d1.chunk.js",
     "static/media/theQuarryGolfCourse.png": "/golf-app/static/media/theQuarryGolfCourse.de2603851223c6da3ef9.png",
     "index.html": "/golf-app/index.html",
-    "main.495847e2.css.map": "/golf-app/static/css/main.495847e2.css.map",
-    "main.db63cde4.js.map": "/golf-app/static/js/main.db63cde4.js.map",
+    "main.7fc79d46.css.map": "/golf-app/static/css/main.7fc79d46.css.map",
+    "main.85b24706.js.map": "/golf-app/static/js/main.85b24706.js.map",
     "787.796e60d1.chunk.js.map": "/golf-app/static/js/787.796e60d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.495847e2.css",
-    "static/js/main.db63cde4.js"
+    "static/css/main.7fc79d46.css",
+    "static/js/main.85b24706.js"
   ]
 }
