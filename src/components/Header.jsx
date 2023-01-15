@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import "../styles/PlayerNames.css";
+import "../styles/playerNames.css";
 import {NavLink, Link} from 'react-router-dom';
+import '../styles/header.css';
 
 export default function Header(props) {
     return (
-<nav className="navbar navbar-expand-lg bg-light">
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 <div className="container-fluid">
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>

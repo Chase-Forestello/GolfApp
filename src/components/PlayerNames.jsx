@@ -2,8 +2,7 @@ import { render } from "@testing-library/react";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "../styles/PlayerNames.css";
-import "../styles/PlayerNames.css";
+import "../styles/playerNames.css";
 
 export default function PlayerNames(props) {
   const [playerCount, setPlayerCount] = useState(1);

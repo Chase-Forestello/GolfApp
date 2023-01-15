@@ -1,6 +1,7 @@
 #scoreCard {
   height: 75vh;
   background-color: aquamarine;
+  margin-top: 5rem;
 }
 #scoreCardHeader {
   background-color: rgba(17, 172, 94, 0.651);
@@ -27,9 +28,10 @@
 }
 .map-btn {
   width: 25vw;
+  margin-right: 1rem;
 }
 .scorecard-btn{
-    width: 75vw;
+    width: 75%;
     margin-top: 1rem;
 }
 #exampleModal{
@@ -41,4 +43,24 @@ background-color: rgba(34, 139, 34, 0.329);
 .map-body{
     background-color: rgba(0, 255, 0, 0.329);
     padding: 0;
+}
+.modal-header{
+    background-color: rgba(34, 139, 34, 0.329);
+    /* justify-content: center; */
+}
+.modal-footer{
+    background-color: rgba(34, 139, 34, 0.329);
+    justify-content: center;
+}
+.yardage-select{
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.score-input{
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
