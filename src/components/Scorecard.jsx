@@ -27,8 +27,6 @@ export default function Scorecard(props) {
         list="defaultNumbers"
         className="form-control text-center score-input"
       />
-      <span className="validity"></span>
-
       <datalist id="defaultNumbers">
         <option value="00">00</option>
         <option value="-3">-3</option>
@@ -75,6 +73,20 @@ export default function Scorecard(props) {
     for (let i = 0; i < test.length; i++) {
       test[i].innerHTML = yardages[i];
     }
+  }
+
+  function handleTotalClick(e) {
+    let total = 0;
+    let player = e.target.id;
+    console.log(player);
+    let scoreInputs = document.getElementsByClassName("score-input" + player.charAt(player.length - 1) );
+    player = "total" + player.charAt(player.length - 1)
+    for (let i = 0; i < scoreInputs.length; i++) {
+      if (scoreInputs[i].value !== "") {
+        total += parseInt(scoreInputs[i].value);
+      }
+    }
+    document.getElementById(player).innerHTML = total;
   }
 
   function ScorecardModals() {
@@ -250,6 +262,10 @@ export default function Scorecard(props) {
                         </tr>
                       </tbody>
                     </table>
+                      <button type="button" id={"total" + i} onClick={handleTotalClick} disabled className="btn btn-primary">
+                        Total
+                      </button>
+                      <span id={"totalText" + i}></span>
                   </div>
                 </div>
                 <div className="modal-footer">
