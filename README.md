@@ -17,4 +17,7 @@ https://chase-forestello.github.io/golf-app/
   <li>
     Score card based on selected information
   </li>
+  <li>
+    Score total and course par
+  </li>
 </ul>
